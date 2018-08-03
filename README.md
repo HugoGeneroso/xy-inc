@@ -4,7 +4,9 @@ Desafio de Back-end PI para a oportunidade de desenvolvedor na ZupIT
 
 ## Iniciando
 A api foi desenvolvida utilizando o LoopBack.
+
 LoopBack is a highly-extensible, open-source Node.js framework - https://loopback.io/
+
 As instruções a seguir são para que o desenvolvedor consiga executar e testar o projeto em seu ambiente.
 
 ### Pré-requisitos
