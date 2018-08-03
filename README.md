@@ -38,4 +38,4 @@ npm test
 ```
 ## Authores
 
-* **Hugo Generoso** - [PurpleBooth](https://github.com/faliz321)
+* **Hugo Generoso** - (https://github.com/faliz321)
