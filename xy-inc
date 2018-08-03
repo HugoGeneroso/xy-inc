@@ -1,0 +1,26 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "POIs": 8
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "POIs": {
+      "1": "{\"nome\":\"Lanchonete\",\"xcoord\":27,\"ycoord\":12,\"id\":1}",
+      "2": "{\"nome\":\"Posto\",\"xcoord\":31,\"ycoord\":18,\"id\":2}",
+      "3": "{\"nome\":\"Joalheria\",\"xcoord\":15,\"ycoord\":12,\"id\":3}",
+      "4": "{\"nome\":\"Floricultura\",\"xcoord\":19,\"ycoord\":21,\"id\":4}",
+      "5": "{\"nome\":\"Pub\",\"xcoord\":12,\"ycoord\":8,\"id\":5}",
+      "6": "{\"nome\":\"Supermercado\",\"xcoord\":23,\"ycoord\":6,\"id\":6}",
+      "7": "{\"nome\":\"Churrascaria\",\"xcoord\":28,\"ycoord\":2,\"id\":7}"
+    }
+  }
+}

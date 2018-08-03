@@ -1,0 +1,64 @@
+{
+  "name": "POIs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "xcoord": {
+      "type": "number",
+      "required": true
+    },
+    "ycoord": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {
+    "findNearestPOIs": {
+      "accepts": [
+        {
+          "arg": "xcoord",
+          "type": "number",
+          "required": true,
+          "description": "coordenada x do ponto de referencia"
+        },
+        {
+          "arg": "ycoord",
+          "type": "number",
+          "required": true,
+          "description": "coordenada y do ponto de referencia"
+        },
+        {
+          "arg": "limite",
+          "type": "number",
+          "required": true,
+          "description": "Valor em metros do limite de distancia dos pontos de interesse"
+        }
+      ],
+      "returns": [
+        {
+          "arg": "result",
+          "type": "object",
+          "root": true,
+          "description": "Pontos de interesse encontrados"
+        }
+      ],
+      "description": "Este serviço receberá uma coordenada X e uma c oordenada Y, especificando um ponto de referência, em como uma distância máxima (dmax) em metros. O serviço deverá retornar todos os POIs da base de dados que estej am a uma distância menor ou igual a d-max a partir do ponto de referência.",
+      "http": [
+        {
+          "path": "/findNearestPOIs",
+          "verb": "get"
+        }
+      ]
+    }
+  }
+}
