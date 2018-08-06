@@ -28,7 +28,7 @@ O terminal apresentará o seguinte aviso:
 Web server listening at: http://localhost:3000          
 Browse your REST API at http://localhost:3000/explorer  
 ```
-Basta acessar http://localhost:3000/explorer para testar as calls da api diretamente no navegador
+Basta acessar http://localhost:3000/explorer para testar as calls da api diretamente no navegador ou utilizar seu http client de preferência
 ## Rodando os testes
 Basta executar o comando no terminal
 ```
